@@ -1,0 +1,80 @@
+syntax = "proto3";
+
+package sita.rtb;
+
+service RTB {
+  rpc Help(HelpRequest) returns (HelpReply);
+  rpc Add(AddRequest) returns (AddReply);
+  rpc Delete(DeleteRequest) returns (DeleteReply);
+  rpc Clear(ClearRequest) returns (ClearReply);
+  rpc Display(DisplayRequest) returns (DisplayReply);
+}
+
+// General ---------------------------------------------------------------------
+message RequestCredentials {
+  string user = 1;
+}
+
+message ReplyStatus {
+  bool successful = 1;
+  string message = 2;
+}
+
+// Help command ----------------------------------------------------------------
+message HelpRequest {
+  RequestCredentials credentials = 1;
+}
+
+message HelpReply {
+  ReplyStatus status = 1;
+  string help_text = 2;
+}
+
+// Add command -----------------------------------------------------------------
+message AddRequest {
+  enum ListOption {
+    MULTI  = 0;
+    SINGLE = 1;
+  }
+
+  RequestCredentials credentials = 1;
+  string list = 2;
+  ListOption option = 3;
+  repeated string addresses = 4;
+}
+
+message AddReply {
+  ReplyStatus status = 1;
+}
+
+// Delete command --------------------------------------------------------------
+message DeleteRequest {
+  RequestCredentials credentials = 1;
+  string list = 2;
+  repeated string addresses = 3;
+}
+
+message DeleteReply {
+  ReplyStatus status = 1;
+}
+
+// Clear command ---------------------------------------------------------------
+message ClearRequest {
+  RequestCredentials credentials = 1;
+  string list = 2;
+}
+
+message ClearReply {
+  ReplyStatus status = 1;
+}
+
+// Display command -------------------------------------------------------------
+message DisplayRequest {
+  RequestCredentials credentials = 1;
+  string list = 2;
+}
+
+message DisplayReply {
+  ReplyStatus status = 1;
+  string contents = 2;
+}

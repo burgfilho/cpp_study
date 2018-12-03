@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libRTB-gRPC.a  CMakeFiles/RTB-gRPC.dir/rtb.pb.cc.o CMakeFiles/RTB-gRPC.dir/rtb.grpc.pb.cc.o
+/usr/bin/ranlib ../lib/libRTB-gRPC.a

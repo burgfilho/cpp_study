@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/burg/Development/C++/rtb_prototype/build/grpc_proto",
+  "command": "/usr/bin/c++  -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS  -O2 -g -DNDEBUG   -fstack-check -fstack-protector-strong -Wtrampolines -Wstack-protector -Wstrict-overflow -Wformat=2 -Werror=format-security -Wl,-z,noexecstack -Wl,-z,noexecheap -Wl,-z,defs -Wl,-z,relro -Wl,-z,now -march=sandybridge -mtune=sandybridge -std=gnu++11 -o CMakeFiles/RTB-gRPC.dir/rtb.pb.cc.o -c /home/burg/Development/C++/rtb_prototype/build/grpc_proto/rtb.pb.cc",
+  "file": "/home/burg/Development/C++/rtb_prototype/build/grpc_proto/rtb.pb.cc"
+},
+{
+  "directory": "/home/burg/Development/C++/rtb_prototype/build/grpc_proto",
+  "command": "/usr/bin/c++  -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS  -O2 -g -DNDEBUG   -fstack-check -fstack-protector-strong -Wtrampolines -Wstack-protector -Wstrict-overflow -Wformat=2 -Werror=format-security -Wl,-z,noexecstack -Wl,-z,noexecheap -Wl,-z,defs -Wl,-z,relro -Wl,-z,now -march=sandybridge -mtune=sandybridge -std=gnu++11 -o CMakeFiles/RTB-gRPC.dir/rtb.grpc.pb.cc.o -c /home/burg/Development/C++/rtb_prototype/build/grpc_proto/rtb.grpc.pb.cc",
+  "file": "/home/burg/Development/C++/rtb_prototype/build/grpc_proto/rtb.grpc.pb.cc"
+},
+{
+  "directory": "/home/burg/Development/C++/rtb_prototype/build/server",
+  "command": "/usr/bin/c++  -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -I/home/burg/Development/C++/rtb_prototype/server -I/home/burg/Development/C++/rtb_prototype/build/grpc_proto/..  -O2 -g -DNDEBUG   -fstack-check -fstack-protector-strong -Wtrampolines -Wstack-protector -Wstrict-overflow -Wformat=2 -Werror=format-security -Wl,-z,noexecstack -Wl,-z,noexecheap -Wl,-z,defs -Wl,-z,relro -Wl,-z,now -march=sandybridge -mtune=sandybridge -Wall -Wextra -Wodr -Winit-self -Wlto-type-mismatch -Wsubobject-linkage -Wnull-dereference -Wplacement-new -Wnon-virtual-dtor -Werror=missing-field-initializers -Werror=uninitialized -Werror=maybe-uninitialized -ffunction-sections -fdata-sections -fasynchronous-unwind-tables -fno-delete-null-pointer-checks -fno-common -fno-omit-frame-pointer -fno-strict-aliasing -fwrapv -fopenmp -fvisibility=hidden -fdiagnostics-color=auto -Wl,--detect-odr-violations -Wl,--no-allow-multiple-definition -std=gnu++17 -o CMakeFiles/RTB-server.dir/main.cpp.o -c /home/burg/Development/C++/rtb_prototype/server/main.cpp",
+  "file": "/home/burg/Development/C++/rtb_prototype/server/main.cpp"
+},
+{
+  "directory": "/home/burg/Development/C++/rtb_prototype/build/server",
+  "command": "/usr/bin/c++  -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -I/home/burg/Development/C++/rtb_prototype/server -I/home/burg/Development/C++/rtb_prototype/build/grpc_proto/..  -O2 -g -DNDEBUG   -fstack-check -fstack-protector-strong -Wtrampolines -Wstack-protector -Wstrict-overflow -Wformat=2 -Werror=format-security -Wl,-z,noexecstack -Wl,-z,noexecheap -Wl,-z,defs -Wl,-z,relro -Wl,-z,now -march=sandybridge -mtune=sandybridge -Wall -Wextra -Wodr -Winit-self -Wlto-type-mismatch -Wsubobject-linkage -Wnull-dereference -Wplacement-new -Wnon-virtual-dtor -Werror=missing-field-initializers -Werror=uninitialized -Werror=maybe-uninitialized -ffunction-sections -fdata-sections -fasynchronous-unwind-tables -fno-delete-null-pointer-checks -fno-common -fno-omit-frame-pointer -fno-strict-aliasing -fwrapv -fopenmp -fvisibility=hidden -fdiagnostics-color=auto -Wl,--detect-odr-violations -Wl,--no-allow-multiple-definition -std=gnu++17 -o CMakeFiles/RTB-server.dir/data/memory/MemoryDataProvider.cpp.o -c /home/burg/Development/C++/rtb_prototype/server/data/memory/MemoryDataProvider.cpp",
+  "file": "/home/burg/Development/C++/rtb_prototype/server/data/memory/MemoryDataProvider.cpp"
+},
+{
+  "directory": "/home/burg/Development/C++/rtb_prototype/build/server",
+  "command": "/usr/bin/c++  -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -I/home/burg/Development/C++/rtb_prototype/server -I/home/burg/Development/C++/rtb_prototype/build/grpc_proto/..  -O2 -g -DNDEBUG   -fstack-check -fstack-protector-strong -Wtrampolines -Wstack-protector -Wstrict-overflow -Wformat=2 -Werror=format-security -Wl,-z,noexecstack -Wl,-z,noexecheap -Wl,-z,defs -Wl,-z,relro -Wl,-z,now -march=sandybridge -mtune=sandybridge -Wall -Wextra -Wodr -Winit-self -Wlto-type-mismatch -Wsubobject-linkage -Wnull-dereference -Wplacement-new -Wnon-virtual-dtor -Werror=missing-field-initializers -Werror=uninitialized -Werror=maybe-uninitialized -ffunction-sections -fdata-sections -fasynchronous-unwind-tables -fno-delete-null-pointer-checks -fno-common -fno-omit-frame-pointer -fno-strict-aliasing -fwrapv -fopenmp -fvisibility=hidden -fdiagnostics-color=auto -Wl,--detect-odr-violations -Wl,--no-allow-multiple-definition -std=gnu++17 -o CMakeFiles/RTB-server.dir/interface/grpc/GRPC.cpp.o -c /home/burg/Development/C++/rtb_prototype/server/interface/grpc/GRPC.cpp",
+  "file": "/home/burg/Development/C++/rtb_prototype/server/interface/grpc/GRPC.cpp"
+},
+{
+  "directory": "/home/burg/Development/C++/rtb_prototype/build/server",
+  "command": "/usr/bin/c++  -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -I/home/burg/Development/C++/rtb_prototype/server -I/home/burg/Development/C++/rtb_prototype/build/grpc_proto/..  -O2 -g -DNDEBUG   -fstack-check -fstack-protector-strong -Wtrampolines -Wstack-protector -Wstrict-overflow -Wformat=2 -Werror=format-security -Wl,-z,noexecstack -Wl,-z,noexecheap -Wl,-z,defs -Wl,-z,relro -Wl,-z,now -march=sandybridge -mtune=sandybridge -Wall -Wextra -Wodr -Winit-self -Wlto-type-mismatch -Wsubobject-linkage -Wnull-dereference -Wplacement-new -Wnon-virtual-dtor -Werror=missing-field-initializers -Werror=uninitialized -Werror=maybe-uninitialized -ffunction-sections -fdata-sections -fasynchronous-unwind-tables -fno-delete-null-pointer-checks -fno-common -fno-omit-frame-pointer -fno-strict-aliasing -fwrapv -fopenmp -fvisibility=hidden -fdiagnostics-color=auto -Wl,--detect-odr-violations -Wl,--no-allow-multiple-definition -std=gnu++17 -o CMakeFiles/RTB-server.dir/service/RTBService.cpp.o -c /home/burg/Development/C++/rtb_prototype/server/service/RTBService.cpp",
+  "file": "/home/burg/Development/C++/rtb_prototype/server/service/RTBService.cpp"
+},
+{
+  "directory": "/home/burg/Development/C++/rtb_prototype/build/test/unit",
+  "command": "/usr/bin/c++  -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -I/home/burg/Development/C++/rtb_prototype/3rdparty/catch2/single_include  -O2 -g -DNDEBUG   -fstack-check -fstack-protector-strong -Wtrampolines -Wstack-protector -Wstrict-overflow -Wformat=2 -Werror=format-security -Wl,-z,noexecstack -Wl,-z,noexecheap -Wl,-z,defs -Wl,-z,relro -Wl,-z,now -march=sandybridge -mtune=sandybridge -std=gnu++11 -o CMakeFiles/RTB-test.dir/catch_setup.cpp.o -c /home/burg/Development/C++/rtb_prototype/test/unit/catch_setup.cpp",
+  "file": "/home/burg/Development/C++/rtb_prototype/test/unit/catch_setup.cpp"
+}
+]
